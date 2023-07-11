@@ -162,15 +162,17 @@ print("Decoded text:", decoded_text)
 text_input = input("Enter text to encode: ")
 encoded_binary_text = encode_text(text_input, huffman_tree)
 print("Encoded binary text:", encoded_binary_text)
-# Enter characters: a b c d e f
-# Enter frequencies: 5 9 12 13 16 45
-# f -> 0
-# c -> 100
-# d -> 101
-# a -> 1100
-# b -> 1101
-# e -> 111
-# Enter the encoded text: 110101011011
-# Decoded text: bfdd
-# Enter text to encode: bad
-# Encoded binary text: 11011100101
+"""
+Enter characters: a b c d e f
+Enter frequencies: 5 9 12 13 16 45
+ f -> 0
+ c -> 100
+ d -> 101
+ a -> 1100
+ b -> 1101
+ e -> 111
+ Enter the encoded text: 110101011011
+ Decoded text: bfdd
+ Enter text to encode: bad
+ Encoded binary text: 11011100101
+"""
